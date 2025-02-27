@@ -19,7 +19,7 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
 const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
-let isUnder25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
+const isUnder25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 // Check four: all unique numbers
 // This is long, and there are more efficient
 // ways of handling it with other data structures
@@ -89,11 +89,11 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
    
    document.write("<br>")
    document.write("<br>")
-   document.write("Will your budget of $175 be enough to cover the fuel expense 55 MPH: " + "<strong>"+ (fiftyFive < 175) +"</strong>")
+   document.write("Will your budget of $175 be enough to cover the fuel expense at 55 MPH: " + "<strong>"+ (fiftyFive < 175) +"</strong>")
    document.write("<br>")
-   document.write("Will your budget of $175 be enough to cover the fuel expense 60 MPH: " + "<strong>"+ (sixty < 175) +"</strong>")
+   document.write("Will your budget of $175 be enough to cover the fuel expense at 60 MPH: " + "<strong>"+ (sixty < 175) +"</strong>")
    document.write("<br>")
-   document.write("Will your budget of $175 be enough to cover the fuel expense 75 MPH: " + "<strong>"+ (seventyFifty < 175) +"</strong>")
+   document.write("Will your budget of $175 be enough to cover the fuel expense at 75 MPH: " + "<strong>"+ (seventyFifty < 175) +"</strong>")
    document.write("<br>")
    document.write("<br>")
    
